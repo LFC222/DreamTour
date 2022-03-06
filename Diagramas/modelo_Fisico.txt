@@ -1,0 +1,57 @@
+Modelo Fisico SQL 
+
+CREATE TABLE usuario 
+( 
+ Id INT PRIMARY KEY,  
+ nome varchar,  
+ cpf varchar,  
+ email varchar,  
+ Celular varchar,  
+); 
+
+CREATE TABLE destino 
+( 
+ Id INT PRIMARY KEY,  
+ nomeDestino varchar,  
+ descricao varchar,  
+ dias int,  
+ preco double,  
+); 
+
+CREATE TABLE tb_usuario_destino
+( 
+ Id INT PRIMARY KEY,  
+ Id INT PRIMARY KEY,  
+); 
+
+ALTER TABLE tb_usuario_destino ADD FOREIGN KEY(Id) REFERENCES usuario (Id)
+ALTER TABLE tb_usuario_destino ADD FOREIGN KEY(Id) REFERENCES destino (Id)
+
+
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"Jamaica", 540);
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"Bahamas", 1000);
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"Porto Rico", 440);
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"El Salvador", 600);
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"Belize", 500);
+insert into destino ( descricao, dias, nome_destino, preco) values ("Lugar Bonito", 5,"Trindad & Tobago", 350);
+
+insert into usuario ( celular, cpf, email, nome ) values ("21979224455", "11111111111", "LFC@gmail.com", "Lucas");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224444", "22222222222", "LUN@gmail.com", "Luan");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224433", "33333333333", "LNA@gmail.com", "Luana");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224422", "44444444444", "LRS@gmail.com", "Larissa");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224411", "55555555555", "LUNA@gmail.com", "Luna");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224400", "66666666666", "RBTC@gmail.com", "Roberto");
+insert into usuario ( celular, cpf, email, nome ) values ("21979224401", "77777777777", "JNS@gmail.com", "Jonas");
+
+insert into tb_usuario_destino ( usuario_id , destino_id) values (1,1);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (2,1);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (1,2);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (3,1);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (3,2);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (2,3);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (4,3);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (5,5);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (2,2);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (3,3);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (4,4);
+insert into tb_usuario_destino ( usuario_id , destino_id) values (6,6);
