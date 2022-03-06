@@ -1,0 +1,9 @@
+OBS: 
+
+	BACKEND - JAVA SPRINGBOOT
+
+   existem 3 arquivos application.properties, o "application.properties" aponta para um profile que ficará ativo, o "application-test.properties" é para teste com
+o banco de dados h2 em memória , e o arquivo "application-dev.properties" e para usar o banco de dados mySql. Para alternar entre um profile e outro , basta ir no 
+arquivo "application.properties" e mudar a propriedade "spring.profiles.active=test" para teste com o banco h2 ou "spring.profiles.active=dev" para trabalhar com o
+banco de dados mySql , por padrão , decidi colocar o "dev", porém, se quiser fazer teste com o profile do h2 , ele está funcional.
+
