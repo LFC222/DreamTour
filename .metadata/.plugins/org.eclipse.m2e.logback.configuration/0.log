@@ -384,3 +384,11 @@
 2022-03-06 02:15:03,371 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-06 02:15:03,371 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-03-06 02:15:03,372 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucas\OneDrive\Área de Trabalho\Agencia viagem - React RecodePro\dreamtour - backend\src\test\resources
+2022-03-16 04:21:56,407 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-16 04:22:48,546 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-16 04:22:48,583 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-16 04:22:48,590 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-03-16 04:22:48,751 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-16 04:22:48,756 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-16 04:22:48,756 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-16 04:22:48,756 [Worker-7: Launching dreamtour - backend - SpringbootBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucas\OneDrive\Área de Trabalho\Agencia viagem - React RecodePro\dreamtour - backend\src\test\resources
